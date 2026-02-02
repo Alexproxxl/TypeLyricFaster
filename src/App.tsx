@@ -1,11 +1,16 @@
-import './App.css'
-import './modules/input.tsx'
+import './styles/framework.scss'
+import BloqueInput from './modules/input2-0-provar.tsx'
 function App() {
   
 
   return (
     <>
-      <Shush />
+      <div className='input-container'>
+
+        <BloqueInput />
+        
+
+      </div>
     </>
   )
 }

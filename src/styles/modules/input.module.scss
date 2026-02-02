@@ -1,0 +1,31 @@
+.input-block-master{
+    height: 45px;
+    width: 90%;
+    margin-bottom: 20px;
+    .input-block{
+        display: flex;
+        
+        input{
+            height: 45px;
+            width: 90%;
+            line-height: 80%;
+            font-size: 40px;
+            border: none;
+            background: rgba($color: #ffffff, $alpha: 0.3);
+        }
+        .div-botones{
+            display: flex;
+            flex-direction: column;
+            width: 19%;
+            button{
+            height: 20px;
+            width: 30%;
+            .trash-button{
+                align-self: right;
+            }
+        }
+    }
+    }
+   
+
+}
